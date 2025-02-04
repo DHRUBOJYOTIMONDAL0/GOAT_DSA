@@ -15,7 +15,7 @@ def setbitBinary(binary_str, index):
     binary_list[(index + 1)] = '1'
     return ''.join(binary_list) 
 
-decimal = 13
+decimal = 4
 binary_represent = convertBinary(decimal)
 print(f"binary represent of {decimal}: {binary_represent}")
 
