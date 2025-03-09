@@ -6,7 +6,6 @@ public class SwapTwo{
         b = a^b;
         a = a^b;
         System.out.println("After Swapping: a = " + a +", b = " + b);
-        System.out.println("After Swapping: a = " + a +", b = " + b);
         
     }
 }
